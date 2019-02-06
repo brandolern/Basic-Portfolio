@@ -42,14 +42,14 @@ ul{
 
 li{
     display: inline;
-    border-right: 1px solid #bbb;   
+    border-right: 1.5px solid #e0e0e0;   
 }
 
 li a {
     text-align: center;
     text-decoration: none;
     color: #777777;
-    padding: 0 5px 0 5px;
+    padding: 0 7px 0 5px;
 }
 
 li.last {
@@ -71,9 +71,9 @@ li.last {
     margin: auto;
     overflow: hidden;
     position: relative;
-    top: 20px;
+    top: 30px;
     border: 1px solid #dddddd;
-    padding: 0 25px;
+    padding: 10px 25px 25px 25px;
 }
 
 .footer{
@@ -90,17 +90,15 @@ li.last {
     padding: 0px;
 }
 
-
-
-
 h1,h2{
     font-family: 'Georgia', Times, Times, serif;
 }
+
 h1{
     color: #fff;
     background-color: #4aaaa5;
     display: inline;
-    padding: 70px 40px;
+    padding: 70px 25px;
     
 }
 
@@ -109,8 +107,13 @@ h2{
 }
 
 #profilePic{
-
+    float: right;
 }
+
+p {
+   
+}
+
 
 .portfolioImg{
     
@@ -118,11 +121,8 @@ h2{
 
 hr{
     margin-bottom: 25px;
-    height: 2px;
-    background-color: gray;
+    height: 3px;
+    background-color: #e0e0e0;
+    border: 0;
 }
 
-p {
-    display: inline;
-    
-}
